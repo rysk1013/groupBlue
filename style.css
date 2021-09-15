@@ -21,3 +21,10 @@ a{
 a:link{
   color: #422;
 }
+:hover{
+ transition:.4s ease-in;
+}
+a:visited{
+  color:#333;
+}
+
