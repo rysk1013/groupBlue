@@ -1,6 +1,9 @@
-@charset "UTF-8"
+@charset "UTF-8";
 
-html{
+/*-------------------------
+初期値
+-------------------------*/
+html　{
   font-size:62.5%;
   scroll-behavior: smooth;
 }
@@ -30,4 +33,117 @@ a:visited{
 
 a:hover{
  color:#111;
+}
+
+ol,
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  th,
+  td {
+    padding: 10px;
+    width: 100%;
+  }
+}
+
+ol,
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  th,
+  td {
+    padding: 10px;
+    width: 100%;
+  }
+}
+
+
+
+tr:nth-of-type(odd) {
+  background-color: #fbfbfb;
+}
+
+
+th {
+  vertical-align: top;
+  text-align: left;
+}
+
+th[input="text email submit"] {
+  width: 600px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+th[input="radio checkbox"] {
+  margin: 0 10px 0 30px;
+}
+
+@media screen and (max-width: 768px) {
+  textarea,select,input { width: 100%;
+  }
+}
+
+
+tr:nth-of-type(odd) {
+  background-color: #fbfbfb;
+}
+
+
+th {
+  vertical-align: top;
+  text-align: left;
+}
+
+th[input="text email submit"] {
+  width: 600px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+th[input="radio checkbox"] {
+  margin: 0 10px 0 30px;
+}
+
+@media screen and (max-width: 768px) {
+  textarea,select,input { width: 100%;
+  }
+}
+
+/*-------------------------
+グローバル
+-------------------------*/
+.container {
+  max-width: 980px;
+  margin: auto;
 }
