@@ -24,4 +24,7 @@ a:link{
 :hover{
  transition:.4s ease-in;
 }
+a:visited{
+  color:#333;
+}
 
